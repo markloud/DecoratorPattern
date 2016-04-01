@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "BreakThroughGoal\Decorator.csproj", "{57E2120C-5BBC-409F-91F1-BA50B872F823}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "BreakThroughGoal\DecoratorPattern.csproj", "{57E2120C-5BBC-409F-91F1-BA50B872F823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
