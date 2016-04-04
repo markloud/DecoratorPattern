@@ -7,11 +7,17 @@ namespace Decorator
 {
     internal class Program
     {
+        /// <summary>
+        /// IComponent interface
+        /// </summary>
         public interface IComponent
         {
             string Operation();
         }
 
+        /// <summary>
+        /// Component Subject
+        /// </summary>
         private class Component : IComponent // Concrete component class
         {
             public string Operation()
@@ -60,7 +66,7 @@ namespace Decorator
             }
         }
 
-        public class Client // responsible for creating components and decorations
+        public class Client // calls components operation
         {
             public static void Display(string s, IComponent c)
             {
